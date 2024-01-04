@@ -102,7 +102,9 @@ outline-offset: -2px;
 .header-logo {
   display: inline-flex;
   align-items: center;
+/*
   margin-right: 76px;
+  */
   font-family: Raleway, sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -113,6 +115,7 @@ outline-offset: -2px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+
 .header-logo-black {
   color: #2e2f42;
   line-height: 1.17;
@@ -125,6 +128,11 @@ outline-offset: -2px;
   gap: 40px;
   align-items: center;
   margin-right: auto;
+}
+@media screen and (max-width: 767.98px){
+  .header-list{
+    display: none;
+  }
 }
 .header-link {
   display: block;
@@ -169,6 +177,11 @@ background-color: #404BBF;
 
   align-items: center;
   margin-right: auto;
+}
+@media screen and (max-width: 767.98px){
+  .header-address-list{
+    display: none;
+  }
 }
 .header-address-link {
   color: #434455;
@@ -317,7 +330,7 @@ background-color: #404BBF;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
-  justify-content: center; зміни на центер
+  justify-content: center;
   background-color: #f4f4fd;
 }
 
@@ -827,4 +840,13 @@ font-size: 12px;
 line-height: 16px;
 letter-spacing: 0.04em;
 text-decoration-line: underline;
+}
+
+
+/* Mobile menu */
+
+.menu-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

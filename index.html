@@ -16,12 +16,17 @@
   </head>
   <body>
     <!--header section-->
-    <header class="header hide">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a class="header-logo" href="./index.html"
             >Web<span class="header-logo-black">Studio</span></a
           >
+          <button class="menu-btn" type="button" aria-label="Open menu button">
+            <svg class="menu-btn-icon" width="24px" height="24px">
+              <use href="./images/icons.svg#icon-menu"></use>
+            </svg>
+          </button>
           <ul class="header-list">
             <li class="header-item">
               <a class="header-link active" href="./index.html">Studio</a>
@@ -454,7 +459,7 @@
       </div>
     </footer>
     <!--modal window-->
-    <div class="backdrop is-open ">
+    <div class="backdrop is-close ">
       <div class="modal hide">
         <button class="modal-btn" type="button" aria-label="modal-close-btn">
           <svg class="modal-btn-icon" width="8" height="8">
