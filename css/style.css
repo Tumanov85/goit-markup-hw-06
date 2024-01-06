@@ -137,6 +137,7 @@ outline-offset: -2px;
   text-transform: uppercase;
 }
 
+
 .header-list {
   display: flex;
   gap: 40px;
@@ -180,21 +181,24 @@ border-radius: 2px;
 background-color: #404BBF;
 }
 
-.header-address-list {
-  display: flex;
-  gap: 40px;
-  align-items: center;
-  margin-right: auto;
-  color: #2e2f42;
-  font-style: normal;
-  letter-spacing: 0.02em;
 
-  align-items: center;
-  margin-right: auto;
-}
 @media screen and (max-width: 767.98px){
   .header-address-list{
     display: none;
+  }
+}
+@media only screen and (min-width: 1158px) {
+  .header-address-list {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    margin-right: auto;
+    color: #2e2f42;
+    font-style: normal;
+    letter-spacing: 0.02em;
+  
+    align-items: center;
+    margin-right: auto;
   }
 }
 .header-address-link {
