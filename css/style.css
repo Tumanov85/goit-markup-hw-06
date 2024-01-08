@@ -255,8 +255,8 @@ background-color: #404BBF;
 @media screen and (min-width: 1158px){
   .hero {
     max-width: 1440px;
-    padding-top: 112px;
-    padding-bottom: 112px;
+    padding-top: 188px;
+    padding-bottom: 188px;
   }
 }
 
@@ -327,7 +327,7 @@ margin: 0 auto 48px auto;
 }
 .feature {
  /* padding: 120px 0;*/
- padding: 96px 16px;
+ padding: 96px 0;
 }
 @media screen and (max-width: 767.98px) {
   .feature {
@@ -414,13 +414,6 @@ margin: 0 auto 48px auto;
   line-height: 1.5;
   text-align: left;
 
-}
-@media only screen and (min-width: 768px) {
-  .feature-item{
-
-    width: 264px;
-  }
-}
 @media only screen and (min-width: 1158px) {
   .feature-item{
     font-weight: 400;
@@ -466,6 +459,11 @@ margin: 0 auto 48px auto;
   }
 }
 
+@media only screen and (min-width: 1158px) {
+   .team-list {
+      gap: 24px;
+  }
+}
 .team-card {
   width: 264px;
   border-radius: 0px 0px 4px 4px;
