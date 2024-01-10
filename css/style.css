@@ -413,7 +413,7 @@ margin: 0 auto 48px auto;
   font-weight: 500;
   line-height: 1.5;
   text-align: left;
-
+}
 @media only screen and (min-width: 1158px) {
   .feature-item{
     font-weight: 400;
